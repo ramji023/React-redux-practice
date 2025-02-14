@@ -3,7 +3,7 @@ import AddTodo from "./AddTodo"
 import TodoItem from "./TodoItem"
 const Todo = () => {
     const todos = useSelector((state) => state.todos.todos)
-    console.log("todos are : ", todos);
+    // console.log("todos are : ", todos);
     return (
         <>
             <AddTodo />
